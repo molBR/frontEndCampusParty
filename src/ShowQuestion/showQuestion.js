@@ -2,7 +2,11 @@ const ShowQuestion = () => {
     
     return (
         <div>
-            <h1>Não implementado</h1>
+            <h3>Github: </h3>
+            <p>https://github.com/molBR</p>
+            <h3>Linkedin: </h3>
+            <p>https://www.linkedin.com/in/pedro-vallese/</p>
+            
         </div>
 
     );

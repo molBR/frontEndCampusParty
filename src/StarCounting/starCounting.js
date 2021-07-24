@@ -15,7 +15,9 @@ const StarCounting = (props) => {
                 onChange={ratingChanged}
                 size={45}
                 color2={'#ffd700'} />
+                <p>Nota: {props.starCount}</p>
             </div>
+            
 
     );
 };

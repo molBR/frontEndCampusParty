@@ -36,13 +36,9 @@ const MakeQuestion = () => {
 
     return (
         <div>
-            <StarCounting function={setStarCount}/>
+            <StarCounting starCount = {starCount} function={setStarCount}/>
             <QuestionText emailValue={email} functionEmail={setEmail} textValue={text} functionText={setText}/>
             <Button onClick={handleClick} variant="primary">Enviar</Button>{' '}
-
-            <h1>{starCount}</h1>
-            <h1>{text}</h1>
-            <h1>{email}</h1>
         </div>
 
     );

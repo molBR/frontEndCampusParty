@@ -20,7 +20,7 @@ const Dash = () => {
                 <label htmlFor='genre'></label>
                 <ToggleButtonGroup type='radio' defaultValue={'fazer_pergunta'} name='genre'  onChange={handleChange}>
                     <ToggleButton id="customStyleButton" value={'fazer_pergunta'}>Fazer Perguntas</ToggleButton>
-                    <ToggleButton id="customStyleButton" value={'ver_perguntas'}>Ver Perguntas</ToggleButton>
+                    <ToggleButton id="customStyleButton" value={'ver_perguntas'}>Informações</ToggleButton>
                 </ToggleButtonGroup>
                 <ContentHandler content={contentValue}></ContentHandler>
             </form>
