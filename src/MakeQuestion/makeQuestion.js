@@ -20,7 +20,7 @@ const MakeQuestion = () => {
 
         const response = await axios({
             method: 'post',
-            url: 'http://52.14.81.170/question',
+            url: 'https://v5sgx2btyj.execute-api.us-east-2.amazonaws.com/question',
             data: {
               email: email,
               score: starCount,
